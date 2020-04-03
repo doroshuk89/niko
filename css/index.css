@@ -1,0 +1,93 @@
+
+#nav-logo-2row-2 .dropdown-menu, #nav-logo-2row-2 .sub-menu, #nav-logo-2row-2 .mega-menu-container {
+	background: #eeeeee;
+}
+
+.nav-bg-color {
+	background: #eeeeee;
+}
+#nav-logo-2row-2 .nav-bg {
+	background: #eeeeee;
+	opacity: 1;
+}
+#header-slogan-modal-2 {
+	background: #141111;
+}
+#header-slogan-modal-2 .bg {
+	background-image: url('../images/123.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.2;
+}#desc-tabs {
+	background: #f8f9fb;
+}
+#benefit-5col-2row .bg {
+	background-image: url('../images/63fa69e347339e6472df2b8a4d74.jpeg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.24;
+}
+#benefit-5col-2row {
+	background: #000000;
+}#desc-text-list-img .bg {
+    background-image: url('../images/kuhni-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    opacity: 0.04;
+}
+
+#action-center-img-text-btn .bg {	
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0;
+}span.icons-row [class^=icon-star] {
+    color: #ffd800;
+}
+
+#testimonials-list-stars {
+    background: linear-gradient(to bottom, #ffffff, #f0f6f7);
+    background: -webkit-linear-gradient(top, #ffffff, #f0f6f7);
+}
+
+#testimonials-list-stars .bg {
+    background-image: url('../images/bg-27.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-repeat: no-repeat;
+    background-position: bottom center;
+    opacity: 1;
+}
+#contact-center-form-2 .bg {
+	background-image: url('../images/post-1.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: bottom center;
+	opacity: 0.1;
+}#popup-halfbg-form .half-container-left {
+	background-image: url('../images/bg-work-2.jpg');
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+}
+
+#footer-text-icon-social {
+	background: #000000;
+}
+#footer-text-logo-btn {
+    background: #768190;
+}
+

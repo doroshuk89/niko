@@ -1,0 +1,55 @@
+
+#nav-logo-2row-2 .dropdown-menu, #nav-logo-2row-2 .sub-menu, #nav-logo-2row-2 .mega-menu-container {
+	background: #eeeeee;
+}
+
+.nav-bg-color {
+	background: #eeeeee;
+}
+#nav-logo-2row-2 .nav-bg {
+	background: #eeeeee;
+	opacity: 1;
+}#contact-quartbg-form-text .quarter-container-left {
+    background-image: url('../images/bg-wood-6.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity:1;
+}#popup-halfbg-form .half-container-left {
+	background-image: url('../images/bg-work-2.jpg');
+	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+}
+#contact-img-form {
+	background: radial-gradient(circle, #653E23 30%, #4E2D18 70%);
+}
+
+#contact-img-form .bg {
+	background-image: url('../images/rostelekom-dlya-yuridicheskih-lits-lichnyiy-kabinet-4.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.2;
+}#action-center-text-btn-3 {
+	background: #ffffff;
+}
+
+#action-center-text-btn-3 .bg {
+	background-image: url('../images/bg-blur-3.jpg');
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-repeat: no-repeat;
+	background-position: center center;
+	opacity: 0.1;
+}
+#footer-text-icon-social {
+	background: #000000;
+}
+#footer-text-logo-btn {
+    background: #768190;
+}
