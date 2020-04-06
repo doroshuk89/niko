@@ -1,0 +1,288 @@
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/13_1.jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpZyMuQP' to '/var/www/niko/foto/garderobnya/13_1.jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/13_1.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/13_1.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/071dd4fb2646518e3d4c065b0fd332df.jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpA7q8gw' to '/var/www/niko/foto/garderobnya/071dd4fb2646518e3d4c065b0fd332df.jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/071dd4fb2646518e3d4c065b0fd332df.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/071dd4fb2646518e3d4c065b0fd332df.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/271-800x800.jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpN8QlIc' to '/var/www/niko/foto/garderobnya/271-800x800.jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/271-800x800.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/271-800x800.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/95499036_w640_h640_mebel-dlya-garderobnoj.webp): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php4ey09S' to '/var/www/niko/foto/garderobnya/95499036_w640_h640_mebel-dlya-garderobnoj.webp' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/95499036_w640_h640_mebel-dlya-garderobnoj.webp in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/95499036_w640_h640_mebel-dlya-garderobnoj.webp in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/A-AMB-2-PIECE-DRESSJ2-ANGLE2.jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phph6O2Bz' to '/var/www/niko/foto/garderobnya/A-AMB-2-PIECE-DRESSJ2-ANGLE2.jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/A-AMB-2-PIECE-DRESSJ2-ANGLE2.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/A-AMB-2-PIECE-DRESSJ2-ANGLE2.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/faire-son-dressingцуцу-soi-.jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpkVzl4f' to '/var/www/niko/foto/garderobnya/faire-son-dressingцуцу-soi-.jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/faire-son-dressingцуцу-soi-.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/faire-son-dressingцуцу-soi-.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/garderobnaya-photo5.png): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php1IDqxW' to '/var/www/niko/foto/garderobnya/garderobnaya-photo5.png' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/garderobnaya-photo5.png in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/garderobnaya-photo5.png in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/og_image.jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpaEzy3C' to '/var/www/niko/foto/garderobnya/og_image.jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/og_image.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/og_image.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/s1200.jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpNTQPzj' to '/var/www/niko/foto/garderobnya/s1200.jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/s1200.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/s1200.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/s1200 (1).jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpWFnw6Z' to '/var/www/niko/foto/garderobnya/s1200 (1).jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/s1200 (1).jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/s1200 (1).jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/Гардеробная-Витрина.jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpxAPPDG' to '/var/www/niko/foto/garderobnya/Гардеробная-Витрина.jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/Гардеробная-Витрина.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/Гардеробная-Витрина.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(/var/www/niko/foto/garderobnya/лофт.jpeg): failed to open stream: Permission denied in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpIlTdbn' to '/var/www/niko/foto/garderobnya/лофт.jpeg' in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. move_uploaded_file() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filemtime(): stat failed for /var/www/niko/foto/garderobnya/лофт.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filemtime() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Warning:  filesize(): stat failed for /var/www/niko/foto/garderobnya/лофт.jpeg in /var/www/niko/login/textolite.php on line 1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP Stack trace:
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   1. {main}() /var/www/niko/login/textolite.php:0
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   2. d->a() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   3. d->b() /var/www/niko/login/textolite.php:1
+[07-Apr-2020 01:03:16 Europe/Moscow] PHP   4. filesize() /var/www/niko/login/textolite.php:1

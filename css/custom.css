@@ -546,6 +546,7 @@ h4 {
 }
 
 .table_col th {
+width: 50%;
 font-weight: bold;
 border-bottom: 2px solid #F5E1A6;
 border-right: 20px solid white;
@@ -613,5 +614,8 @@ color: #8b8e91;
 .wrapper {
     width: 1260px;
     }
+}
+.pIn {
+    text-indent: 20px; /* Отступ первой строки в пикселах */
 }
   

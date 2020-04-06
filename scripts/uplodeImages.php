@@ -12,14 +12,15 @@ $rootDir = 'foto';
             $path_full = $root.'/'.$rootDir.'/'.$dir; 
             //Относительный путь
             $path = '/'.$rootDir.'/'.$dir.'/';
-            
+           
             //Сканируем файлы в папке 
             if (is_dir($path_full)) {
                 $files = scandir($path_full);               
             }else 
                 {
                     return FALSE;                                   
-            }           
+            }          
+            
             //Убераем не нужные значения . и .. из массива
             $files = array_diff($files, array('.', '..'));           
             //Формируем массив по дате добаления. В качестве ключей имя файла, в качестве значения - метка времени добавления.
@@ -31,6 +32,7 @@ $rootDir = 'foto';
                     arsort($array);
                 //Получаем ключи массива в которых указаны названия изображений
                     $images = array_keys($array);
+                   
 
                     
                           
