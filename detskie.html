@@ -1,62 +1,23 @@
+<?php require_once 'scripts/uplodeImages.php'; ?>
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<meta charset="UTF-8">
-		<title>Кухни</title>		
+		<title>Мебель для детской комнаты | NKN-Mebel</title>		
 		<meta name="keywords" content="" />
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
-		<script src="js/fonts.js"></script>
-		<link rel="stylesheet" href="css/bootstrap.css" />
-		<link rel="stylesheet" href="css/icons.css" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/magnific-popup.css" />
-		<link rel="stylesheet" href="css/aos.css" />
-		<link rel="stylesheet" href="css/custom.css" />
-		<link rel="stylesheet" href="css/kuhni.css" />
-                <!--FotoRama-->
-                <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+		<script src="/js/fonts.js"></script>
+		<link rel="stylesheet" href="/css/bootstrap.css" />
+		<link rel="stylesheet" href="/css/icons.css" />
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="stylesheet" href="/css/magnific-popup.css" />
+		<link rel="stylesheet" href="/css/aos.css" />
+		<link rel="stylesheet" href="/css/custom.css" />
+		<link rel="stylesheet" href="/css/kuhni.css" />
                 <!--Fancybox-->
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-                <style>
-                    .item{
-                        margin: 2px;
-                        width: 100%;
-                        height: 300px;                       
-                        overflow: hidden;
-                        padding: 10px;
-                    }
-                    
-                    .item img{ 
-                        vertical-align: middle;
-                        margin: 0 auto;
-                        height: 220px;
-                       
-                    }
-                    @media  (max-width: 1200px) {
-                        .item {
-                            height: 220px;
-                            width: 100%;                         
-                        }
-                        .item img {
-                            width: auto;
-                            height: 180px;
-                        }
-                    }
-                    @media  (max-width: 992px) {
-                        .item {
-                            height: auto;
-                            width: 80%;
-                            margin: 0 auto;
-                        }
-                        .item img {
-                            width: 100%;
-                            height: auto;
-                        }
-                    }
-                </style>
-                
 	</head>
         
     <body class="light-page">
@@ -64,49 +25,70 @@
                     <div class="container">
                         <div class="clearfix">   
                             <ul class="text-icon-list list-inline navbar-text pull-left">
-                                    <li class=""><i class="icon-phone-incoming icon-color"></i><span>1 (867) 1243543</span></li>
-                                    <li class=""><i class="icon-clock icon-color"></i><span>9:00 - 18:00</span></li>
+                                    <li class=""><i class="icon-phone-incoming icon-color"></i><span>+375(29)795-24-13</span></li>
+                                    <li class=""><i class="icon-clock icon-color"></i><span>пн.-пт. 9:00-18:00</span></li>
                                 </ul>
                             <div class="btn-group pull-right hidden-xs">
-                                <a class="btn btn-success navbar-btn btn-sm dark" href="#" data-target="#popup-center-form" span="" style="" data-toggle="modal"><i class="icon-telephone2 icon-color"></i> Заказать звонок</a>
+                                <a class="btn btn-success navbar-btn btn-sm dark" href="#" data-target="#popup-center-form" data-toggle="modal"><i class="icon-telephone2 icon-color"></i> Заказать звонок</a>
                             </div>
                         </div>
                         <hr class="mt-0 mb-0" style="opacity: 0.5">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-                            <div class="navbar-brand"><img src="images/logo2-light.png" srcset="images/logo2-light@2x.png 2x" alt="Your logo" class=""></div>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                            <div class="navbar-brand">
+                               
+                                <a href="/"><img src="/images/logo.png" alt="Логотип" class=""></a>
+                            </div>
                         </div>
 
-                        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 0px;">
+                        <div id="navbar" role="navigation" class="navbar-collapse collapse" aria-expanded="false" style="height: 0px;">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class=""><a href="#"><span>Главная</span></a></li>
-                                <li class=""><a target="_self" class="smooth" href="portfolio.html"><i class="icon-chevron-down-bold icon-color icon-position-left icon-size-m"></i><span>Портфолио</span></a>
+                                <li class=""><a href="/"><span>Главная</span></a></li>
+                                <li class=""><a target="_self" class="smooth" href="/portfolio/"><i class="icon-chevron-down-bold icon-color icon-position-left icon-size-m"></i><span>Портфолио</span></a>
                                     <ul class="sub-menu">
-                                        <li><a href="#"><span>Кухни</span></a></li>
-                                        <li><a href="#"><span>Шкафы купе</span></a></li>
-                                        <li><a href="#"><span>Офисная мебель</span></a></li>
-                                        <li><a href="#"><span>Детские</span></a></li>
-                                        <li><a href="#"><span>Кровати</span></a></li> 
+                                        <li><a href="/portfolio/kuhni/"><span>Кухни</span></a></li>
+                                        <li><a href="/portfolio/shkaf/"><span>Шкафы купе</span></a></li>
+                                        <li><a href="/portfolio/garderobnya/"><span>Гардеробные</span></a></li>
+                                        <li><a href="/portfolio/office/"><span>Офисная мебель</span></a></li>
+                                        <li><a href="/portfolio/detskie/"><span>Детские</span></a></li>
+                                        <li><a href="/portfolio/drugay-mebel/"><span>Другая мебель</span></a></li> 
                                     </ul>
                                 </li>
-                                <li class=""><a href="#"><span>Услуги</span></a></li>
-
-                                <li class=""><a href="#"><span>О нас</span></a></li>
-                                <li class=""><a href="#"><span>Контакты</span></a></li>
+                                <li class=""><a href="/service/"><span>Услуги и цены</span></a></li>
+                                <li class=""><a href="/about/"><span>О нас</span></a></li>
+                                <li class=""><a href="/contact/"><span>Контакты</span></a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="nav-bg light"></div>
-                </nav>		
+                </nav>
         
         <div id="wrap">
-			
-                        <section id="desc-center-slogan-img-text--0" class="light pt-300 pb-125 text-center">
+                        <section id="desc-center-slogan-img-text--0" class="light pt-200 pb-125 text-center">
                                     <div class="container" style="">
-                                            <h2 class="mb-50" style="">Кухни</h2>
+                                        <div class="header-h1">
+                                            <h1 data-aos="fade-down" data-aos-easing="none" data-aos-duration="500" data-aos-delay="0" class="pt-125">Мебель для детской</h1>
+                                        </div>
                                             <div class="row">
-                                            <div class="col-md-12" style="">               
-                                            <p class="compressed-box-50" style=""> В нашей работе мы пытаемся использовать только самые современные, удобные и интересные решения. Мы хотим шаблон, Вы загрузили взгляд, уникальный и новый в течение такого долгого времени, поскольку это возможно. У наших элементов нет чрезмерного блеска, но они всегда фактические </p>
+                                            <div class="col-md-12 text-left">               
+                                            <p class="text-justify" style=""> 
+                                                Предлагаем детскую мебель на заказ по индивидуальным размерам от производителя в Брест. Заказывайте изготовление мебели для детской комнаты у нас, мы реализуем проект любой сложности.                                               
+Наша мебель для детской комнаты прочная и безопасная для ребенка. 
+У нас можно заказать детскую мебель для любых возрастов, изготовленную из различных материалов.<p/>
+                                            <p class="text-left"><strong>Детские комнаты на заказ:</strong> наши возможности</br>
+                                            У нас можно заказать:</p>
+                                            <ul class="mb-15">
+                                                <li>Кроватки для самых маленьких. Они могут дополняться ящиками и тумбами для хранения вещей малыша, пеленальными столиками, маятниковыми системами, балдахинами и другими элементами.</li>
+                                                <li>Кровати для детей дошкольного и школьного возраста. Делаем одно- и двухъярусные конструкции, чердаки, со шкафами и другими системами хранения.</li>
+                                                <li>Столы. Предлагаем прямые и угловые конструкции, трансформеры, которые можно регулировать, и другие варианты таких изделий.</li>
+                                                <li>Шкафы, полки, комоды, тумбы и другую мебель для оснащения детских спален.</li>
+                                            </ul>
+                                            <p><strong>Детская мебель на заказ по индивидуальным проектам: высокое качество и любые стили</strong><br>
+В нашей фирме можно заказать детскую мебель на заказ с различными вариантами оформления: для мальчика, для девочки или унисекс. 
+Обращайтесь к нам, если хотите оформить комнату в классическом стиле, прованс, хай-тек или в любом другом.
+Наши изделия характеризуются высокой прочностью. Их гарантийный срок эксплуатации – 10 лет. Делаем корпусную и встроенную детскую мебель. 
+Можем разработать проект с нуля, либо воссоздать понравившееся вам решение по фотографиям.
+                                            </p>
                                             </div>
 
                                             </div>
@@ -114,147 +96,93 @@
                                     <div class="bg"></div>
 			</section>
             
-            <section id="gallery-list-3col-6" class="pt-100 pb-100 dark text-center">
+            <section id="gallery-list-3col-6" class="pt-50 pb-100 dark text-center">
     			<div class="container no-side-pad">
-
-        			<h2 class="mb-75"><strong>Фото наших работ</strong></h2>
-
-        			<div class="row no-pad gallery">
-                                    <div class="col-md-12">
-           
-           
-            
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="item">
-                                <div class="res">
-                                    <a data-fancybox="gallery" href="images/product-1.jpg">
-                                        <img class="img-responsive" src="images/product-1.jpg" alt="">
-                                    </a>
-                                </div>
+                            <div class="header-h2 header-h2-center mb-40" style="margin-bottom: 30px;">
+        			<h2 class="" style="font-size: 20px;"><strong>Фото наших работ</strong></h2>
                             </div>
-                            
-                        </div>
-                        <div class="col-md-3">
-                            <div class="item">
-           <a data-fancybox="gallery" href="images/product-2.jpg">
-                <img class="img-responsive" src="images/product-2.jpg" alt="">
-            </a>
-        </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="item">
-            <a data-fancybox="gallery" href="images/screen-21.jpg">
-                <img class="img-responsive" src="images/screen-21.jpg" alt="">
-            </a>
-        </div>
-                            
-                        </div>
-                        <div class="col-md-3">
-                            <div class="item">
-          <a data-fancybox="gallery" href="images/screen-23.jpg">
-                <img class="img-responsive" src="images/screen-23.jpg" alt="">
-            </a>
-        </div>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class ="col-md-3">
-                            <div class="item">
-            <a data-fancybox="gallery" href="images/product-5.jpg">
-                <img class="img-responsive" src="images/product-5.jpg" alt="">
-            </a>
-        </div> 
-                        </div>
-                        <div class ="col-md-3">
-                             <div class="item">
-           <a data-fancybox="gallery" href="images/MK_22.jpg">
-                <img class="img-responsive" src="images/MK_22.jpg" alt="">
-            </a>
-        </div>
-                        </div>
-                        <div class ="col-md-3">
-                             <div class="item">
-           <a data-fancybox="gallery" href="images/screen-22.jpg">
-                <img class="img-responsive" src="images/s1200.jpeg" alt="">
-            </a>
-        </div>
-                        </div>
-                        <div class ="col-md-3">
-                              <div class="item">
-           <a data-fancybox="gallery" href="images/s1200_1.jpeg">
-                <img class="img-responsive" src="images/s1200_1.jpeg" alt="">
-            </a>
-        </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                     			
-        			</div>
+        			<div class="row no-pad gallery">
+                                    <div class="col-md-12">                           
+                                <!--Гелерея наших работ FancyBox-->
+                                    <?php  if ($images) { ?>
+                                            <div class="masonry">
+                                                  <?php  foreach ($images as $item) { ?>
+                                                        <div class="item">
+                                                            <a data-fancybox="gallery" href="<?php echo $item;?>">
+                                                                <img class="img-responsive" src="<?php echo $item;?>" alt="">
+                                                            </a>
+                                                        </div>
+                                                <?php } ?>
+                                            </div> 
+                                    <?php }else {?> 
+                                            <h3 class="text-center">Фото не найдены</h3>
+                                    <?php } ?>
+                                <!-- ------EndGallery FancyBox---------- -->              		      
+                                    </div>
                                 <div class="clearfix"></div>
-        			<p class="mt-75 compressed-box-50">В нашей работе мы пытаемся использовать только самые современные, удобные и интересные решения. Мы хотим шаблон, Вы загрузили взгляд, уникальный и новый в течение такого долгого времени, поскольку это возможно</p>
-        			
+                                <div class="col-md-12  text-center mt-30 mb-30">
+                                    <a class="btn-default btn aos-init aos-animate" data-aos="fade-up" data-aos-easing="none" data-aos-duration="500" data-aos-delay="0" href="/portfolio/">
+                                        <span>
+                                            <strong>
+                                               <i class="icon-chevron-left-small icon-color"></i>
+                                                Каталог проектов
+                                            </strong>
+                                        </span>
+                                    </a>                
+                                </div>
+        			<p class="mt-75 compressed-box-50">                                    
+                                     Каталог представлен основными вариантами мебели под заказ. 
+                                     Многие из этих вариантом мы успешно изготовили
+                                     по индивидуальным размерам. 
+                                </p>	
     			</div>
-    			<div class="bg"></div>
+                    </div>
+                <div class="bg"></div>
 	    </section>
-            
             
             
            <section id="action-center-img-text-btn" class="pt-100 pb-100  text-center">
     			<div class="container">
         			<div class="row">
-            			<div class="col-md-12">
-               
-                			<h2 class="mb-50">Купите сегодня и доберитесь <br><strong>20%-я скидка на Вашу следующую покупку!</strong></h2>
-                			<a class="btn btn-success" href="#" data-toggle="modal" data-target="#popup-halfbg-form"><i class="icon-android icon-size-m icon-position-left"></i><span>Оставить заявку<strong> сейчас!</strong></span></a>
-            			</div>
+                                    <div class="col-md-12">                                   
+                                            <h3 class="mb-50" style="font-size: 36px;">Напишите нам.<br/> Мы ждем ваших заявок.</h3>
+                                                <a class="btn btn-success" href="#" data-toggle="modal" data-target="#popup-halfbg-form">
+                                                    <i class="icon-envelope2 icon-size-m icon-position-left"></i>
+                                                    <span>Оставить заявку<strong> сейчас!</strong></span>
+                                                </a>
+                                    </div>
         			</div>
     			</div>
-    			<div class="bg"></div>
+                <div class="bg"></div>
 	    </section>
             
-            
-            
-            
-            <footer id="footer-text-icon-social" class="pt-50 pb-50 dark text-left">
+             <footer id="footer-text-icon-social" class="pt-50 pb-50 dark text-left">
     			<div class="container">
         			<div class="row flex-md-vmiddle">
-            			<div class="col-md-4">
-                			<p>© Multifour.com. Все права защищены.</p>
+            			<div class="col-md-4 text-center" style="">
+                			<p class="" style="">© atlas&amp;Co. Все права защищены.</p>
             			</div>
             			<div class="col-md-4 text-center">
-                			<a href="#" class="icon-chevron-up icon-size-l icon-color"><i></i></a>
+                			<a href="#nav" class="spr-option-link-del icon-chevron-up-circle icon-size-l icon-color smooth"><i></i></a>
             			</div>
             			<div class="col-md-4 text-md-right">
                 			<ul class="social-list">
-                    			<li>
-                        			<a href="#"><i class="icon-twitter icon-size-m"></i></a>
-                    			</li><li>
-                        			<a href="#"><i class="icon-facebook icon-size-m"></i></a>
-                    			</li><li>
+                    			<li class="">
+                        			<a href="#"><i class="icon-youtube22 icon-size-m"></i></a>
+                    			</li><li class="">
                         			<a href="#"><i class="icon-linkedin icon-size-m"></i></a>
-                    			</li><li>
-                        			<a href="#"><i class="icon-github-alt icon-size-m"></i></a>
-                    			</li><li>
-                        			<a href="#"><i class="icon-google-plus icon-size-m"></i></a>
-                    			</li><li>
-                        			<a href="#"><i class="icon-dribbble icon-size-m"></i></a>
-                    			</li><li>
-                        			<a href="#"><i class="icon-behance icon-size-m"></i></a>
+                    			</li><li class="">
+                        			<a href="#"><i class="icon-vk icon-size-m"></i></a>
                     			</li>
                 			</ul>
             			</div>
         			</div>
     			</div>
     			<div class="bg"></div>
-	</footer>
-		</div>
-		<footer></footer>
+                    </footer>
+		</div>		
                 
-		<div class="modal-container"><section class="modal fade modal-confirm flex-center" id="popup-center-form" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+<div class="modal-container"><section class="modal fade modal-confirm flex-center" id="popup-center-form" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
     <div class="modal-dialog">
         <div class="modal-content text-center light">
             <div class="modal-header">
@@ -274,11 +202,9 @@
             </div>
             <div class="bg"></div>
           </div>
-    </div>
-
-
-    
-</section><section class="modal fade modal-confirm flex-center" id="popup-halfbg-form" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+    </div>  
+</section>
+                    <section class="modal fade modal-confirm flex-center" id="popup-halfbg-form" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
     <div class="modal-dialog modal-lg">
         <div class="modal-content text-left light">
             <div class="half-container-left"></div>
@@ -308,22 +234,18 @@
             <div class="bg"></div>
         </div>
     </div>
-</section></div>
-		
-		
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery.magnific-popup.min.js"></script>
-		<script src="js/jquery.validate.min.js"></script>
-		<script src="js/jquery.smooth-scroll.min.js"></script>
-		<script src="js/aos.js"></script>
+</section>   
+</div>		
+		<script src="/js/jquery-2.1.4.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/jquery.magnific-popup.min.js"></script>
+		<script src="/js/jquery.validate.min.js"></script>
+		<script src="/js/jquery.smooth-scroll.min.js"></script>
+		<script src="/js/aos.js"></script>
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCByts0vn5uAYat3aXEeK0yWL7txqfSMX8"></script>
 		<script src="https://cdn.jsdelivr.net/jquery.goodshare.js/3.2.8/goodshare.min.js"></script>
-		<script src="js/custom.js"></script>
-		<script src="js/kuhni.js"></script>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+		<script src="/js/custom.js"></script>
+		<script src="/js/kuhni.js"></script>
                 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-                
-               
 	</body>
 </html>
