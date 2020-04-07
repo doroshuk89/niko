@@ -75,3 +75,20 @@ $('.single-iframe-popup').magnificPopup({
 $('.single-image-popup').magnificPopup({
 	type: 'image'
 });
+
+
+
+$('#navbar a').each(function() {
+    var url = window.location.pathname;
+    var index = $(this).attr('href');
+    
+    if (index == '/' && index == url){    
+        $(this).addClass('active');
+    }else if (index == '/') {
+        index = '/index/';
+    } 
+        if ((window.location.pathname.indexOf(index)) > -1) 
+            {
+                $(this).addClass('active');
+            }
+});
