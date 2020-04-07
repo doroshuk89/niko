@@ -619,8 +619,7 @@ color: #8b8e91;
     text-indent: 20px; /* Отступ первой строки в пикселах */
 }
 
-
-.active {
+.active_menu {
     color: #0089ff !important;
 }
   

@@ -26,7 +26,7 @@
                                     <li class=""><i class="icon-clock icon-color"></i><span>пн.-пт. 9:00-18:00</span></li>
                                 </ul>
                             <div class="btn-group pull-right hidden-xs">
-                                <a class="btn btn-success navbar-btn btn-sm dark" href="#" data-target="#popup-center-form" data-toggle="modal"><i class="icon-telephone2 icon-color"></i> Заказать звонок</a>
+                                <a class="btn btn-success navbar-btn btn-sm dark" href="#" data-target="#request_call" data-toggle="modal"><i class="icon-telephone2 icon-color"></i> Заказать звонок</a>
                             </div>
                         </div>
                         <hr class="mt-0 mb-0" style="opacity: 0.5">
@@ -100,7 +100,7 @@
 		</div>
 		<footer></footer>
 		<div class="modal-container">
-                    <section class="modal fade modal-confirm flex-center" id="popup-center-form" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+                    <section class="modal fade modal-confirm flex-center" id="request_call" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
     <div class="modal-dialog">
         <div class="modal-content text-center light">
             <div class="modal-header">
@@ -108,23 +108,32 @@
             </div>
             <div class="modal-body">
                 <h2 class="mb-30">Заказать звонок</h2>
-                <form action="" class="contact_form mb-0" novalidate="novalidate" id="popup-center-form-form">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Имя" name="NAME">
+                
+                <form action="scripts/request.php" class="contact_form mb-0" novalidate="novalidate" id="popup-center-form-form">
+                    <div class="form-group has-feedback">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="icon-user2 icon-size-m"></i></span>
+                            <input type="text" class="form-control" placeholder="Ваше имя" name="NAME" required="required" pattern="^[A-Za-zА-Яа-яЁё0-9\s]+$">
+                        </div>                    
                     </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Телефон" name="EMAIL">
-                    </div>                   
-                    <button type="submit" data-loading-text="•••" data-complete-text="Completed!" data-reset-text="Try again later..." class="btn btn-primary btn-block"><i class="icon-paper-plane icon-position-left icon-size-m"></i><span>Отправить</span></button> 
+                    <div class="form-group has-feedback">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="icon-phone2 icon-size-m"></i></span>
+                            <input type="tel" name="phone" id="phone" class="form-control bfh-phone" required="required" data-format="+375 (dd) ddd-dd-dd" placeholder="Телефон" >
+                        </div>
+                    </div>
+                    <div class="form-group response_order">
+                        <p></p>
+                    </div>                
+                    <button type="submit" data-loading-text="•••" data-complete-text="Completed!" data-reset-text="Try again later..." class="btn btn-primary btn-block"><i class="icon-phone2 icon-position-left"></i><span>Заказать</span></button> 
                 </form>
+                
             </div>
             <div class="bg"></div>
           </div>
     </div>
-
-
-    
 </section>
+
                     </div>
 		
 		

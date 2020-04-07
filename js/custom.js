@@ -83,12 +83,12 @@ $('#navbar a').each(function() {
     var index = $(this).attr('href');
     
     if (index == '/' && index == url){    
-        $(this).addClass('active');
+        $(this).addClass('active_menu');
     }else if (index == '/') {
         index = '/index/';
     } 
         if ((window.location.pathname.indexOf(index)) > -1) 
             {
-                $(this).addClass('active');
+                $(this).addClass('active_menu');
             }
 });
