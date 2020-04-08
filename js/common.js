@@ -7,14 +7,9 @@ window.addEventListener('load', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     
-//Маски для полей ввода 
-        $('.date').mask('99/99/9999',{autoclear: false});
-	$('#phone').mask('+(375) 99 999-99-99', {autoclear: false});
-	$('#email').mask();
-	$(".tin").mask("99-9999999");
-	$(".ssn").mask("999-99-9999");
-	$(".product").mask("a*-999-a999");
-	$(".eyescript").mask("~9.99 ~9.99 999");
+//Маски для полей ввода    
+$('#phone').mask('+(375) 99 999-99-99');
+	
 
 
 //------------------------------------------------------------------------------------
@@ -114,7 +109,7 @@ $('#popup-center-form-form').submit(function () {
 //------------------------------------------------------------------------------------
 //						CONTACT FORM VALIDATION'S SETTINGS
 //------------------------------------------------------------------------------------
-$('#popup-halfbg-form-form, #index-form, #contact-form').validate({
+$('#popup-halfbg-form-form, #contact-form').validate({
     onfocusout: false,
     onkeyup: false,
     rules: {
@@ -138,7 +133,33 @@ $('#popup-halfbg-form-form, #index-form, #contact-form').validate({
                       .closest('.form-group')
                       .removeClass('has-error')
                       .addClass('has-success');
+              }
+});
 
+$('#index-form').validate({
+    onfocusout: false,
+    onkeyup: false,
+    rules: {
+        NAME:{
+          required:true,  
+        },
+        EMAIL:{
+          required:true,    
+        },
+    },
+    errorPlacement: function (error, element) {},
+    highlight: function (element) {
+                  $(element)
+                      .closest('.form-group')
+                      .removeClass('has-success')
+                      .addClass('has-error');
+              },
+              
+    unhighlight: function (element) {
+                  $(element)
+                      .closest('.form-group')
+                      .removeClass('has-error')
+                      .addClass('has-success');
               }
 });
 
