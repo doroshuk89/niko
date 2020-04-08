@@ -6,7 +6,15 @@ window.addEventListener('load', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-
+    
+//Маски для полей ввода 
+        $('.date').mask('99/99/9999',{autoclear: false});
+	$('#phone').mask('+(375) 99 999-99-99', {autoclear: false});
+	$('#email').mask();
+	$(".tin").mask("99-9999999");
+	$(".ssn").mask("999-99-9999");
+	$(".product").mask("a*-999-a999");
+	$(".eyescript").mask("~9.99 ~9.99 999");
 
 
 //------------------------------------------------------------------------------------
@@ -16,15 +24,23 @@ $('#popup-center-form-form').validate({
     onfocusout: false,
     onkeyup: false,
     rules: {
+        phone:{
+            required: true       
+        },
     },
-    errorPlacement: function (error, element) {
-
-        if ((element.attr("type") == "radio") || (element.attr("type") == "checkbox")) {
-            error.appendTo($(element).parents("div").eq(0));
-        } else {
-            error.insertAfter(element);
-        }
-    }
+    errorPlacement: function (error, element) {},
+    highlight: function (element) {
+                  $(element)
+                      .closest('.form-group')
+                      .removeClass('has-success')
+                      .addClass('has-error');
+              },            
+    unhighlight: function (element) {
+                  $(element)
+                      .closest('.form-group')
+                      .removeClass('has-error')
+                      .addClass('has-success');
+              }
 });
 
 //------------------------------------------------------------------------------------
@@ -98,19 +114,32 @@ $('#popup-center-form-form').submit(function () {
 //------------------------------------------------------------------------------------
 //						CONTACT FORM VALIDATION'S SETTINGS
 //------------------------------------------------------------------------------------
-$('#popup-halfbg-form-form').validate({
+$('#popup-halfbg-form-form, #index-form, #contact-form').validate({
     onfocusout: false,
     onkeyup: false,
     rules: {
+        NAME:{
+          required:true,  
+        },
+        EMAIL:{
+          required:true,    
+        },
     },
-    errorPlacement: function (error, element) {
+    errorPlacement: function (error, element) {},
+    highlight: function (element) {
+                  $(element)
+                      .closest('.form-group')
+                      .removeClass('has-success')
+                      .addClass('has-error');
+              },
+              
+    unhighlight: function (element) {
+                  $(element)
+                      .closest('.form-group')
+                      .removeClass('has-error')
+                      .addClass('has-success');
 
-        if ((element.attr("type") == "radio") || (element.attr("type") == "checkbox")) {
-            error.appendTo($(element).parents("div").eq(0));
-        } else {
-            error.insertAfter(element);
-        }
-    }
+              }
 });
 
 //------------------------------------------------------------------------------------
@@ -180,13 +209,6 @@ $('#popup-halfbg-form-form').submit(function () {
     }
     return false;
 });
-
-
-
-
-
-
-
 
 
 });
