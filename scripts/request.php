@@ -1,5 +1,8 @@
 <?php
 
+echo json_encode([
+    'status' => true,
+    'message' => 'Ожидайте нашего звонка']);
 if($_POST['id'] === "") {
 	$mailto = "";
 
