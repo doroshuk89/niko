@@ -11,6 +11,6 @@ $smtp = array(
     "secure" => 'ssl', // Тип шифрования. Например ssl или tls
     "mail_title" => 'Заголовок вашего письма!', // Заголовок письма
     "mail_name" => 'Nkn-Мебель', // Имя отправителя
-    "addAddress" => 'doroshuk89@gmail.com' //Адресс получателя
+    "addAddress" => 'doroshuk33@yandex.ru' //Адресс получателя
 );
 
