@@ -61,7 +61,7 @@ if ($_POST && !empty($_POST)){
     $body .= "<title>".$title."</title>";
     $body .= "</head><body>";
     $body .= "<table><tr><td>";
-    $body .= "<table style='width:600px; border-spacing: 10px; border: 1px solid silver; padding: 10px;'><tr><td>";
+    $body .= "<table style='width:600px; border-spacing: 10px; border: 1px solid silver; padding: 10px; font-size:20px;'><tr><td>";
     $body .= "<tr><td ><h3 style='text-align:center; border-bottom: 1px solid silver; color:#82b3f9;'>".$title."</h3></td></tr>"; 
             foreach ($result as $value) {               
                 $body .= "<tr><td><strong>".ucfirst($value['name']).":</strong> ".nl2br($value['value'])."</td></tr>"; 
@@ -92,7 +92,7 @@ try{
         if ($mail->send()) {
             echo json_encode([
                                 'status'=> true,
-                                'message' => 'Ожидайте звонка Пожалуйста'
+                                'message' => 'Ожидайте. Мы свяжемся с вами!'
                             ]);
         }else {
             echo json_encode([

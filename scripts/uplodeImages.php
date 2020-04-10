@@ -15,14 +15,20 @@ $rootDir = 'foto';
            
             //Сканируем файлы в папке 
             if (is_dir($path_full)) {
-                $files = scandir($path_full);               
+                $files = scandir($path_full);
+                //Оставляем в массиве только файлы изображений
+                if ($files) {
+                        $files = preg_grep("/\.(?:png|gif|jpe?g)$/i", $files);
+                    }
             }else 
                 {
                     return FALSE;                                   
             }          
             
+            
             //Убераем не нужные значения . и .. из массива
-            $files = array_diff($files, array('.', '..'));           
+            $files = array_diff($files, array('.', '..'));  
+            
             //Формируем массив по дате добаления. В качестве ключей имя файла, в качестве значения - метка времени добавления.
             //В начале массива последние добавленные фото
                 foreach ($files as $key=>$file) {                
@@ -32,6 +38,7 @@ $rootDir = 'foto';
                     arsort($array);
                 //Получаем ключи массива в которых указаны названия изображений
                     $images = array_keys($array);
+                    
                    
 
                     
