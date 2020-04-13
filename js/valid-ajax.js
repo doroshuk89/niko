@@ -128,7 +128,7 @@ $('#call_request, #index-form, #form_message, #contact-form').submit(function ()
                     form.find('button,input').removeAttr('disabled');
                     form.find('.form-group').removeClass('has-success');
                     form.find("p.msg").html(data.message);                   
-                    form.find("p.msg").css("color", "green").fadeIn("slow");
+                    form.find("p.msg").addClass("msg-success").fadeIn("slow");
                     setTimeout(function () {
                         $('.modal.in').modal( 'hide' );
                         $('p.msg').fadeOut("slow");
@@ -138,7 +138,7 @@ $('#call_request, #index-form, #form_message, #contact-form').submit(function ()
                     form.find('button,input').removeAttr('disabled');
                     form.find('.form-group').removeClass('has-success');
                     form.find("p.msg").html(data.message);                   
-                    form.find("p.msg").css("color", "red").fadeIn("slow");
+                    form.find("p.msg").addClass("msg-error").fadeIn("slow");
                     setTimeout(function () {                       
                         $('p.msg').fadeOut("slow");
                     }, 2000); 
@@ -152,7 +152,7 @@ $('#call_request, #index-form, #form_message, #contact-form').submit(function ()
                     //Включение кнопки и элементов формы
                     form.find('button,input').removeAttr('disabled');
                     form.find("p.msg").html('Превышено время ожидания');
-                    form.find("p.msg").css("color", "#000").fadeIn("slow");
+                    form.find("p.msg").addClass("msg-error").fadeIn("slow");
                     setTimeout(function() { $('p.msg').fadeOut("slow"); }, 3000);      
                 }       
             }

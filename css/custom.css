@@ -766,7 +766,7 @@ color: #8b8e91;
 #benefit-5col-2row {
 	background: #000000;
 }#desc-text-list-img .bg {
-    background-image: url('../images/kuhni-bg.jpg');
+    background-image: url('../images/kuhni-bg.jpeg');
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
@@ -793,7 +793,7 @@ span.icons-row [class^=icon-star] {
     opacity: 1;
 }
 #contact-center-form-2 .bg {
-	background-image: url('../images/post-1.jpg');
+	background-image: url('../images/post-1.jpeg');
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-repeat: no-repeat;
@@ -858,7 +858,7 @@ span.icons-row [class^=icon-star] {
 }
 
 #action-center-text-btn-3 .bg {
-	background-image: url('../images/bg-blur-3.jpg');
+	background-image: url('../images/bg-blur-3.jpeg');
 	background-size: cover;
 	-webkit-background-size: cover;
 	background-repeat: no-repeat;
@@ -967,3 +967,10 @@ span.icons-row [class^=icon-star] {
 
 /*------------*/
 
+.msg-success {
+    color:green;
+}
+
+.msg-error {
+    color:red;
+}
