@@ -1,0 +1,14 @@
+User-agent: *
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif
+Allow: *.jpeg
+Disallow: /login/
+Disallow: /fonts/
+Disallow: /layots/
+Disallow: /scripts/
+
+Host: https://nkn-mebel.by
+Sitemap: https://nkn-mebel.by/sitemap.xml

@@ -11,9 +11,9 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html/?\ HTTP
 RewriteRule ^(.*)\.html/?$ http://niko.by/$1/ [R=301,L]
 
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(kuhni|shkaf|detskie|garderobnya|office|drugay-mebel)/?\ HTTP
-RewriteRule ^(.*)/?$       http://niko.by/portfolio/%1/ [R=301,L]
+RewriteRule ^(.*)/?$       http://niko.by/catalog/%1/ [R=301,L]
 
-RewriteCond %{REQUEST_URI} ^/portfolio/(kuhni|shkaf|detskie|garderobnya|office|drugay-mebel)/$ [NC]
+RewriteCond %{REQUEST_URI} ^/catalog/(kuhni|shkaf|detskie|garderobnya|office|drugay-mebel)/$ [NC]
 RewriteRule ^(.*)$ /%1/ [L]
 
 RewriteCond %{REQUEST_URI} ^/index/?$ [NC]
